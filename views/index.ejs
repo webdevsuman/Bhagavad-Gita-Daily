@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalnia:wght@300&family=Noto+Sans:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <title>Bhagavad Gita daily</title>
+  </head>
+  <body>
+    <h1>B.G- <%= content.name_translated %></h1>
+    <p><%= content.name_meaning %></p>
+    <h2>Summary</h2>
+    <p><%= content.chapter_summary %></p>
+    <h3>in Hindi</h3>
+    <p><%= content.chapter_summary_hindi %></p>
+
+    <!-- Footer section -->
+    <footer class="bg-body-tertiary text-center text-lg-start">
+      <!-- Copyright -->
+      <div
+        class="text-center p-3"
+        style="background-color: rgba(0, 0, 0, 0.05)"
+      >
+        © 2024 Copyright:
+        <a class="text-body" href="https://mysticdevsuman.github.io/"
+          >Suman Das</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+body {
+  background: #f6f1ee;
+  text-align: center;
+  justify-content: center;
+  color: #45474b;
+  font-size: 1.5em;
+  margin: 10% 20%;
+}
+p {
+  font-family: "Noto Sans", sans-serif;
+}
+h1 {
+  color: #191919;
+  font-family: "Kalnia", serif;
+}
+h2,
+h3 {
+  color: #161a30;
+}
+
+footer {
+  margin-top: 100px;
+  font-size: smaller;
+}
+
+a:hover {
+  font-style: italic;
+}
